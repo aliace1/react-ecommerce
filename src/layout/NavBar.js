@@ -33,7 +33,7 @@ class NavBar extends Component {
               <li className="nav-link ml-5">
                 <h2>
                   <Link to="/" className="nav-link">
-                    <b className="fa fa-home"> Produits</b>
+                    <b className="fa fa-glass"> Produits</b>
                   </Link>
                 </h2>
               </li>
