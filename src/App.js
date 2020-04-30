@@ -6,7 +6,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 // import Produits from './components/Produits';
 import ProduitsList from './components/ProduitsList';
 import Details from './components/Details';
-import Cart from './components/Cart';
+import Cart from './components/Cart/Cart';
 import Default from './components/Default';
 import Module from './components/Module';
 import Footer from './components/Footer';

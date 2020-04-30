@@ -4,29 +4,48 @@ import styled from 'styled-components'
 // import lzb from '../lzb.svg'
 import { ButtonContainer } from '../components/Button';
 
+  /*
+  author: Aliace WebMaster
+*/
+
+
 class NavBar extends Component {
+
+  // constructor (props) {
+  //   super(props);
+  // }
+
+  // handleInput = (e) => {
+  //   console.log(e.target.value);
+  //   this.state({searchProduit: e.target.value})
+  // }
     render() {
         return (
           <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
             <Link to="/">
-              <img src={"assets/img/lzb.png"} alt="store" className="navbar-brand" />
+              <img
+                src={"assets/img/lzb.png"}
+                alt="store"
+                className="navbar-brand"
+              />
             </Link>
             <ul className="navbar-nav align-items-center">
               <li className="nav-link ml-5">
                 <h2>
                   <Link to="/" className="nav-link">
-                    Produits
+                    <b className="fa fa-home"> Produits</b>
                   </Link>
                 </h2>
               </li>
             </ul>
-            <form className="form-inline">
+            {/* <form handleInput={this.handleInput} className="form-inline">
               <input
                 type="search"
                 className="form-control mr-5"
                 placeholder="Recherche"
+                handleChange={this.handleInput}
               />
-            </form>
+            </form> */}
             <Link to="/cart" className="ml-auto">
               <ButtonContainer>
                 <span className="mr-2">

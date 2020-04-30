@@ -17,7 +17,7 @@ class Details extends Component {
                 title,
                 inCart,
                 old
-              } = value.detailProduits;
+              } = value.detailProduit;
                return (
                  <div className="container py-2">
                    {/* titre */}

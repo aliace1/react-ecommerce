@@ -105,7 +105,7 @@ export const storeProduits = [
          }
        ];
 
-export const detailProduits = {
+export const detailProduit = {
          id: 1,
          title: "Vin Doux",
          img: "assets/img/lzb.png",
