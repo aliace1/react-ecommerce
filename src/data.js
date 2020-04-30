@@ -4,7 +4,7 @@ export const storeProduits = [
            title: "Vin Blanc Doux",
            img: "assets/img/vin_doux.jpg",
            price: 65000,
-           company: "Lazani betsileo",
+           company: "Lazan'i betsileo",
            old: 1896,
            info:
              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eaque rerum repudiandae ipsam repellat veniam voluptatem commodi nostrum veritatis libero error nisi beatae placeat recusandae. Nihil nobis sapiente assumenda delectus!",
@@ -17,7 +17,7 @@ export const storeProduits = [
            title: "Vin rouge",
            img: "assets/img/vin_rouge.jpg",
            price: 20000,
-           company: "Lazani betsileo",
+           company: "Lazan'i betsileo",
            old: 1990,
            info:
              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eaque rerum repudiandae ipsam repellat veniam voluptatem commodi nostrum veritatis libero error nisi beatae placeat recusandae. Nihil nobis sapiente assumenda delectus!",
@@ -30,7 +30,7 @@ export const storeProduits = [
            title: "Vin Gris",
            img: "assets/img/vin_gris.jpg",
            price: 15000,
-           company: "Lazani betsileo",
+           company: "Lazan'i betsileo",
            old: 1995,
            info:
              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eaque rerum repudiandae ipsam repellat veniam voluptatem commodi nostrum veritatis libero error nisi beatae placeat recusandae. Nihil nobis sapiente assumenda delectus!",
@@ -43,7 +43,7 @@ export const storeProduits = [
            title: "Vin aperitife",
            img: "assets/img/vin_aperitife.jpg",
            price: 12000,
-           company: "Lazani betsileo",
+           company: "Lazan'i betsileo",
            old: 2000,
            info:
              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eaque rerum repudiandae ipsam repellat veniam voluptatem commodi nostrum veritatis libero error nisi beatae placeat recusandae. Nihil nobis sapiente assumenda delectus!",
@@ -56,7 +56,7 @@ export const storeProduits = [
            title: "Vin mousseux",
            img: "assets/img/mousseux.jpg",
            price: 80000,
-           company: "Lazani betsileo",
+           company: "Lazan'i betsileo",
            old: 2000,
            info:
              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eaque rerum repudiandae ipsam repellat veniam voluptatem commodi nostrum veritatis libero error nisi beatae placeat recusandae. Nihil nobis sapiente assumenda delectus!",
@@ -69,7 +69,7 @@ export const storeProduits = [
            title: "Vin rouge doux",
            img: "assets/img/rouge_doux.jpg",
            price: 12000,
-           company: "Lazani betsileo",
+           company: "Lazan'i betsileo",
            old: 2000,
            info:
              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eaque rerum repudiandae ipsam repellat veniam voluptatem commodi nostrum veritatis libero error nisi beatae placeat recusandae. Nihil nobis sapiente assumenda delectus!",
@@ -82,7 +82,7 @@ export const storeProduits = [
            title: "Vin blanc moilleux",
            img: "assets/img/moilleux.jpg",
            price: 12000,
-           company: "Lazani betsileo",
+           company: "Lazan'i betsileo",
            old: 2000,
            info:
              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eaque rerum repudiandae ipsam repellat veniam voluptatem commodi nostrum veritatis libero error nisi beatae placeat recusandae. Nihil nobis sapiente assumenda delectus!",
@@ -95,7 +95,7 @@ export const storeProduits = [
            title: "eau de vie",
            img: "assets/img/eau.jpg",
            price: 18000,
-           company: "Lazani betsileo",
+           company: "Lazan'i betsileo",
            old: 2000,
            info:
              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eaque rerum repudiandae ipsam repellat veniam voluptatem commodi nostrum veritatis libero error nisi beatae placeat recusandae. Nihil nobis sapiente assumenda delectus!",
@@ -110,7 +110,7 @@ export const detailProduit = {
          title: "Vin Doux",
          img: "assets/img/lzb.png",
          price: 10,
-         company: "Lazani betsileo",
+         company: "Lazan'i betsileo",
          old:"1972",
          info:
            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eaque rerum repudiandae ipsam repellat veniam voluptatem commodi nostrum veritatis libero error nisi beatae placeat recusandae. Nihil nobis sapiente assumenda delectus!",
