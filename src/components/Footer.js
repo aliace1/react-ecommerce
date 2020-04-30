@@ -18,20 +18,23 @@ class Footer extends Component {
           // </div>
           // </FooterWrapper>
 
-          <div className="page-footer font-small mdb-color bg-success pt-4">
+          <div
+            className="page-footer font-small mdb-color pt-4"
+            style={{ background: "green" }}
+          >
             <div className="container text-center text-md-left">
               <div className="row">
                 <div className="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
                   <h5
-                    className="font-weight-bold text-uppercase mb-4 text-white "
-                    style={{ color: "#f3f3f3" }}
+                    className="font-weight-bold text-uppercase mb-4"
+                    style={{ color: "rgb(80, 233, 80)" }}
                   >
                     a savoir
                   </h5>
-                  <p className="text-white">
+                  <p style={{ color: "rgb(80, 233, 80)" }}>
                     Bla bal bal bal bal bal bal bal bal bal
                   </p>
-                  <p className="text-white">
+                  <p style={{ color: "rgb(80, 233, 80)" }}>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Fugit amet numquam iure provident voluptate esse quasi,
                     veritatis totam voluptas nostrum.
@@ -42,32 +45,35 @@ class Footer extends Component {
 
                 <div className="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
                   <h5
-                    className="font-weight-bold text-uppercase mb-4 text-white"
-                    style={{ color: "#f3f3f3" }}
+                    className="font-weight-bold text-uppercase mb-4"
+                    style={{ color: "rgb(80, 233, 80)" }}
                   >
                     Adresse
                   </h5>
 
-                  <ul className="list-unstyled text-white">
+                  <ul
+                    className="list-unstyled"
+                    style={{ color: "rgb(80, 233, 80)" }}
+                  >
                     <li>
                       <p>
-                        <i className="fa fa-home mr-3"></i> Anjoma, Fianarantsoa
+                        <i className="fa fa-home mr-3"/> Anjoma, Fianarantsoa
                         301
                       </p>
                     </li>
                     <li>
                       <p>
-                        <i className="fa fa-envelope mr-3"></i> info@example.com
+                        <i className="fa fa-envelope mr-3"/> info@example.com
                       </p>
                     </li>
                     <li>
                       <p>
-                        <i className="fa fa-phone mr-3"></i> + 261 20 75 xxx xx
+                        <i className="fa fa-phone mr-3"/> + 261 20 75 xxx xx
                       </p>
                     </li>
                     <li>
                       <p>
-                        <i className="fa fa-print mr-3"></i> + 261 20 75 xxx xx
+                        <i className="fa fa-print mr-3"/> + 261 20 75 xxx xx
                       </p>
                     </li>
                   </ul>
@@ -77,32 +83,42 @@ class Footer extends Component {
 
                 <div className="col-md-2 col-lg-2 text-center mx-auto my-4 my-md-4 my-0 mb-1">
                   <h5
-                    className="font-weight-bold text-uppercase mb-4 text-white"
-                    style={{ color: "#f3f3f3" }}
+                    className="font-weight-bold text-uppercase mb-4"
+                    style={{ color: "rgb(80, 233, 80)" }}
                   >
                     suivez nous sur
                   </h5>
 
-                  <p type="button" className="btn-floating btn-fb text-white">
-                    <i className="fa fa-facebook mr-3"></i>
-                  </p>
-
-                  <p type="button" className="btn-floating btn-tw text-white">
-                    <i className="fa fa-twitter mr-3"></i>
+                  <p
+                    type="button"
+                    className="btn-floating btn-fb"
+                    style={{ color: "rgb(80, 233, 80)" }}
+                  >
+                    <i className="fa fa-facebook mr-3"/>
                   </p>
 
                   <p
                     type="button"
-                    className="btn-floating btn-gplus text-white"
+                    className="btn-floating btn-tw"
+                    style={{ color: "rgb(80, 233, 80)" }}
                   >
-                    <i className="fa fa-google mr-3"></i>
+                    <i className="fa fa-twitter mr-3"/>
                   </p>
 
                   <p
                     type="button"
-                    className="btn-floating btn-dribbble text-white"
+                    className="btn-floating btn-gplus"
+                    style={{ color: "rgb(80, 233, 80)" }}
                   >
-                    <i className="fa fa-dribbble mr-3"></i>
+                    <i className="fa fa-google mr-3"/>
+                  </p>
+
+                  <p
+                    type="button"
+                    className="btn-floating btn-dribbble"
+                    style={{ color: "rgb(80, 233, 80)" }}
+                  >
+                    <i className="fa fa-dribbble mr-3"/>
                   </p>
                 </div>
               </div>
@@ -112,7 +128,9 @@ class Footer extends Component {
               className="footer-copyright text-center py-3"
               style={{ color: "#f3f3f3" }}
             >
-              © 2020 Copyright : Aliace WebMaster
+              <span style={{ color: "rgb(80, 233, 80)" }}>
+                &copy; Aliace WebMaster {new Date().getFullYear()}
+              </span>
             </div>
           </div>
         );
